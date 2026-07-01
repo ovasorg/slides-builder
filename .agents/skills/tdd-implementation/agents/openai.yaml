@@ -1,0 +1,4 @@
+interface:
+  display_name: "TDD Implementation"
+  short_description: "Implement changes with criteria-first validation"
+  default_prompt: "Use $tdd-implementation to define acceptance criteria, implement the change, and validate it before handoff."

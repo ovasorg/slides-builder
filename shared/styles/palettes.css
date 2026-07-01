@@ -1,0 +1,399 @@
+:root {
+  --palette-name: "Enterprise Aurora";
+}
+
+.slidev-layout.palette-aurora {
+  --palette-name: "Enterprise Aurora";
+  --deck-bg: #080b10;
+  --deck-panel: #0f1520;
+  --deck-panel-2: #151c2a;
+  --deck-ink: #f6f8fa;
+  --deck-muted: #b7c2d0;
+  --deck-soft: #7d8ca3;
+  --deck-line: #303a4c;
+  --deck-blue: #2f81f7;
+  --deck-green: #3fb950;
+  --deck-amber: #d29922;
+  --deck-rose: #f778ba;
+  --deck-purple: #a371f7;
+  --deck-cyan: #39c5cf;
+}
+
+.slidev-layout.palette-lab {
+  --palette-name: "Research Lab";
+  --deck-bg: #071013;
+  --deck-panel: #0d1b1f;
+  --deck-panel-2: #14272d;
+  --deck-ink: #f3fbff;
+  --deck-muted: #b8ccd4;
+  --deck-soft: #78919a;
+  --deck-line: #28424b;
+  --deck-blue: #47b8ff;
+  --deck-green: #38d996;
+  --deck-amber: #f2c94c;
+  --deck-rose: #ff6fae;
+  --deck-purple: #b98cff;
+  --deck-cyan: #32d6d3;
+}
+
+.slidev-layout.palette-sunset {
+  --palette-name: "Product Sunset";
+  --deck-bg: #100b12;
+  --deck-panel: #1a111d;
+  --deck-panel-2: #24172a;
+  --deck-ink: #fff7fb;
+  --deck-muted: #d7c0ca;
+  --deck-soft: #a58a97;
+  --deck-line: #493241;
+  --deck-blue: #7aa2ff;
+  --deck-green: #6ee7b7;
+  --deck-amber: #fbbf24;
+  --deck-rose: #fb7185;
+  --deck-purple: #c084fc;
+  --deck-cyan: #67e8f9;
+}
+
+.slidev-layout.palette-mono {
+  --palette-name: "Executive Mono";
+  --deck-bg: #08090b;
+  --deck-panel: #101216;
+  --deck-panel-2: #171a20;
+  --deck-ink: #f8fafc;
+  --deck-muted: #cbd5e1;
+  --deck-soft: #94a3b8;
+  --deck-line: #334155;
+  --deck-blue: #93c5fd;
+  --deck-green: #86efac;
+  --deck-amber: #fde68a;
+  --deck-rose: #fda4af;
+  --deck-purple: #d8b4fe;
+  --deck-cyan: #a5f3fc;
+}
+
+.slidev-layout.palette-carbon {
+  --palette-name: "Carbon Focus";
+  --deck-bg: #07090f;
+  --deck-panel: #111827;
+  --deck-panel-2: #1f2937;
+  --deck-ink: #f9fafb;
+  --deck-muted: #cbd5e1;
+  --deck-soft: #8ea3b8;
+  --deck-line: #334155;
+  --deck-blue: #60a5fa;
+  --deck-green: #34d399;
+  --deck-amber: #fbbf24;
+  --deck-rose: #fb7185;
+  --deck-purple: #a78bfa;
+  --deck-cyan: #22d3ee;
+}
+
+.slidev-layout.palette-citrus {
+  --palette-name: "Citrus Grid";
+  --deck-bg: #07110f;
+  --deck-panel: #0d1f1a;
+  --deck-panel-2: #142820;
+  --deck-ink: #f7fee7;
+  --deck-muted: #c8d8c0;
+  --deck-soft: #8fa38a;
+  --deck-line: #2f473d;
+  --deck-blue: #38bdf8;
+  --deck-green: #84cc16;
+  --deck-amber: #facc15;
+  --deck-rose: #fb7185;
+  --deck-purple: #a78bfa;
+  --deck-cyan: #2dd4bf;
+}
+
+.slidev-layout.palette-orchid {
+  --palette-name: "Orchid Pulse";
+  --deck-bg: #0d0a14;
+  --deck-panel: #171224;
+  --deck-panel-2: #211936;
+  --deck-ink: #fbf8ff;
+  --deck-muted: #cfc4df;
+  --deck-soft: #9a8caf;
+  --deck-line: #46365f;
+  --deck-blue: #7dd3fc;
+  --deck-green: #86efac;
+  --deck-amber: #fbbf24;
+  --deck-rose: #f472b6;
+  --deck-purple: #c084fc;
+  --deck-cyan: #5eead4;
+}
+
+.slidev-layout.palette-crystal {
+  --palette-name: "Crystal Day";
+  --deck-bg: #f8fbff;
+  --deck-panel: #ffffff;
+  --deck-panel-2: #eef5ff;
+  --deck-ink: #0f172a;
+  --deck-muted: #475569;
+  --deck-soft: #64748b;
+  --deck-line: #cbd5e1;
+  --deck-blue: #2563eb;
+  --deck-green: #16a34a;
+  --deck-amber: #d97706;
+  --deck-rose: #e11d48;
+  --deck-purple: #7c3aed;
+  --deck-cyan: #0891b2;
+  --accent-gradient: linear-gradient(100deg, #0f172a 0%, #1d4ed8 44%, #0891b2 70%, #16a34a 100%);
+  --border-gradient: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.72),
+    rgba(124, 58, 237, 0.34),
+    rgba(22, 163, 74, 0.52)
+  );
+}
+
+.slidev-layout.palette-aurora,
+.slidev-layout.palette-lab,
+.slidev-layout.palette-sunset,
+.slidev-layout.palette-mono,
+.slidev-layout.palette-carbon,
+.slidev-layout.palette-citrus,
+.slidev-layout.palette-orchid,
+.slidev-layout.palette-crystal {
+  --accent-gradient: linear-gradient(
+    100deg,
+    #ffffff 0%,
+    var(--deck-blue) 46%,
+    var(--deck-cyan) 68%,
+    var(--deck-green) 100%
+  );
+  --border-gradient: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--deck-blue) 72%, transparent),
+    color-mix(in srgb, var(--deck-purple) 42%, transparent),
+    color-mix(in srgb, var(--deck-green) 58%, transparent)
+  );
+}
+
+.slidev-layout.palette-crystal {
+  --accent-gradient: linear-gradient(100deg, #0f172a 0%, #1d4ed8 44%, #0891b2 70%, #16a34a 100%);
+  --border-gradient: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.72),
+    rgba(124, 58, 237, 0.34),
+    rgba(22, 163, 74, 0.52)
+  );
+  background:
+    radial-gradient(circle at 12% 8%, rgba(37, 99, 235, 0.12), transparent 28%),
+    radial-gradient(circle at 92% 18%, rgba(124, 58, 237, 0.09), transparent 24%),
+    radial-gradient(circle at 78% 88%, rgba(22, 163, 74, 0.08), transparent 30%),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+    var(--deck-bg);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+}
+
+.slidev-layout.palette-crystal::before {
+  background:
+    linear-gradient(180deg, rgba(37, 99, 235, 0.08), rgba(22, 163, 74, 0.03), transparent),
+    linear-gradient(110deg, rgba(255, 255, 255, 0.48), transparent 42%);
+}
+
+.slidev-layout.palette-crystal .kicker {
+  color: var(--deck-green);
+}
+
+.slidev-layout.palette-crystal .lead,
+.slidev-layout.palette-crystal p,
+.slidev-layout.palette-crystal li {
+  color: var(--deck-muted);
+}
+
+.slidev-layout.palette-crystal .agenda-grid > div,
+.slidev-layout.palette-crystal .policy-grid > div,
+.slidev-layout.palette-crystal .copilot-matrix > div,
+.slidev-layout.palette-crystal .lab-grid > div,
+.slidev-layout.palette-crystal .big-contrast > div,
+.slidev-layout.palette-crystal .ownership-board > div,
+.slidev-layout.palette-crystal .dependency-map > div,
+.slidev-layout.palette-crystal .strip-card,
+.slidev-layout.palette-crystal .adoption-track > div,
+.slidev-layout.palette-crystal .copilot-step,
+.slidev-layout.palette-crystal .platform-node,
+.slidev-layout.palette-crystal .governance-item,
+.slidev-layout.palette-crystal .ops-lane,
+.slidev-layout.palette-crystal .lesson-stack > div,
+.slidev-layout.palette-crystal .topology-center,
+.slidev-layout.palette-crystal .topology-node,
+.slidev-layout.palette-crystal .branch-step,
+.slidev-layout.palette-crystal .friction-flow > div,
+.slidev-layout.palette-crystal .maturity-curve,
+.slidev-layout.palette-crystal .trial-card,
+.slidev-layout.palette-crystal .final-frame,
+.slidev-layout.palette-crystal .security-radar svg,
+.slidev-layout.palette-crystal .radar-copy,
+.slidev-layout.palette-crystal .graph-diagram svg,
+.slidev-layout.palette-crystal .mermaid-diagram,
+.slidev-layout.palette-crystal .echart-panel,
+.slidev-layout.palette-crystal .sequence-diagram,
+.slidev-layout.palette-crystal .media-frame,
+.slidev-layout.palette-crystal .style-palette-card,
+.slidev-layout.palette-crystal .metric-strip article,
+.slidev-layout.palette-crystal .comparison-table,
+.slidev-layout.palette-crystal .decision-matrix,
+.slidev-layout.palette-crystal .hierarchy-tree,
+.slidev-layout.palette-crystal .hierarchy-root,
+.slidev-layout.palette-crystal .icon-grid article,
+.slidev-layout.palette-crystal .shape-token,
+.slidev-layout.palette-crystal .timeline-flow article,
+.slidev-layout.palette-crystal .swimlane-flow,
+.slidev-layout.palette-crystal .pyramid-diagram article,
+.slidev-layout.palette-crystal .callout-stack article,
+.slidev-layout.palette-crystal .quote-frame,
+.slidev-layout.palette-crystal .architecture-layers article,
+.slidev-layout.palette-crystal .shape-3d-copy {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(238, 245, 255, 0.9)) padding-box,
+    var(--border-gradient) border-box !important;
+  border-color: transparent !important;
+  box-shadow: 0 20px 54px rgba(15, 23, 42, 0.12) !important;
+}
+
+.slidev-layout.palette-crystal .mermaid-diagram-canvas,
+.slidev-layout.palette-crystal .echart-panel-canvas {
+  background:
+    radial-gradient(circle at 20% 0%, rgba(47, 129, 247, 0.12), transparent 34%),
+    radial-gradient(circle at 88% 95%, rgba(57, 197, 207, 0.1), transparent 36%),
+    rgba(255, 255, 255, 0.68);
+  border-color: rgba(30, 41, 59, 0.12);
+}
+
+.slidev-layout.palette-crystal .mermaid-diagram-insights article,
+.slidev-layout.palette-crystal .echart-panel-insights article {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(30, 41, 59, 0.12);
+}
+
+.slidev-layout.palette-crystal .mermaid-syntax-grid article {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(238, 245, 255, 0.9)) padding-box,
+    var(--border-gradient) border-box;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+}
+
+.slidev-layout.palette-crystal .mermaid-syntax-grid article code {
+  background: rgba(47, 129, 247, 0.08);
+  border-color: rgba(47, 129, 247, 0.18);
+}
+
+.slidev-layout.palette-crystal .speaker-card,
+.slidev-layout.palette-crystal .speaker-link-card,
+.slidev-layout.palette-crystal .speaker-role,
+.slidev-layout.palette-crystal .browser-mockup,
+.slidev-layout.palette-crystal .github-mockup {
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+}
+
+.slidev-layout.palette-crystal .speaker-roles > div,
+.slidev-layout.palette-crystal .speaker-card,
+.slidev-layout.palette-crystal .speaker-qr {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(238, 245, 255, 0.9)) padding-box,
+    var(--border-gradient) border-box;
+  border-color: transparent;
+}
+
+.slidev-layout.palette-crystal .speaker-avatar {
+  background:
+    linear-gradient(145deg, rgba(37, 99, 235, 0.12), rgba(22, 163, 74, 0.08)),
+    #eef5ff;
+  border-color: rgba(148, 163, 184, 0.36);
+}
+
+.slidev-layout.palette-crystal .speaker-tags span {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(37, 99, 235, 0.22);
+  color: #1e3a8a;
+}
+
+.slidev-layout.palette-crystal .speaker-links a {
+  background: #ffffff;
+  border-color: #cbd5e1;
+}
+
+.slidev-layout.palette-crystal .speaker-links strong,
+.slidev-layout.palette-crystal .speaker-qr strong,
+.slidev-layout.palette-crystal .speaker-meta strong,
+.slidev-layout.palette-crystal .speaker-roles strong,
+.slidev-layout.palette-crystal .radar-copy strong {
+  color: var(--deck-ink);
+}
+
+.slidev-layout.palette-crystal .radar-copy span {
+  color: var(--deck-muted);
+}
+
+.slidev-layout.palette-crystal .radar-ring,
+.slidev-layout.palette-crystal .radar-axis {
+  stroke: rgba(15, 23, 42, 0.22);
+}
+
+.slidev-layout.palette-crystal .security-radar text {
+  fill: var(--deck-ink);
+}
+
+.slidev-layout.palette-crystal .graph-node circle {
+  fill: rgba(255, 255, 255, 0.96);
+}
+
+.slidev-layout.palette-crystal .graph-title {
+  fill: var(--deck-ink);
+}
+
+.slidev-layout.palette-crystal .graph-detail {
+  fill: var(--deck-muted);
+}
+
+.slidev-layout.palette-crystal .trial-facts span {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(148, 163, 184, 0.34);
+  color: var(--deck-ink);
+}
+
+.slidev-layout.palette-crystal .platform-line,
+.slidev-layout.palette-crystal .timeline-flow::before {
+  opacity: 0.72;
+}
+
+.slidev-layout.palette-crystal .sequence-participants,
+.slidev-layout.palette-crystal .media-frame figcaption {
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.slidev-layout.palette-crystal .sequence-message span {
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--deck-ink);
+}
+
+.slidev-layout.palette-crystal .media-surface {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(37, 99, 235, 0.16), transparent 38%),
+    radial-gradient(circle at 80% 82%, rgba(22, 163, 74, 0.11), transparent 32%),
+    #eef5ff;
+}
+
+.slidev-layout.palette-crystal .quote-mark {
+  background:
+    linear-gradient(145deg, rgba(37, 99, 235, 0.12), rgba(22, 163, 74, 0.09)) padding-box,
+    var(--border-gradient) border-box;
+}
+
+.slidev-layout.palette-crystal .venn-core {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(238, 245, 255, 0.96)) padding-box,
+    var(--border-gradient) border-box;
+}
+
+.slidev-layout.palette-crystal .shape-3d-copy small,
+.slidev-layout.palette-crystal .architecture-layers article small,
+.slidev-layout.palette-crystal .callout-stack article small,
+.slidev-layout.palette-crystal .timeline-flow article small,
+.slidev-layout.palette-crystal .icon-grid article small,
+.slidev-layout.palette-crystal .hierarchy-branches article small,
+.slidev-layout.palette-crystal .metric-strip article small,
+.slidev-layout.palette-crystal .style-palette-card p {
+  color: var(--deck-muted);
+}

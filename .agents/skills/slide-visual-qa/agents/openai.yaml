@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slide Visual QA"
+  short_description: "Inspect and fix slide visual quality"
+  default_prompt: "Use $slide-visual-qa to inspect this deck for readability, contrast, layout, rendering, and presentation readiness."

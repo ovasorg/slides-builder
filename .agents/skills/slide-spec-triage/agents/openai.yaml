@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slide Spec Triage"
+  short_description: "Validate a slide-deck request before generation."
+  default_prompt: "Use $slide-spec-triage to validate this slide-deck specification and ask only for missing critical information before creating or editing slides."

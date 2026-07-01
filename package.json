@@ -1,0 +1,32 @@
+{
+  "name": "slides-builder-workspace",
+  "version": "1.0.0",
+  "description": "Agent-ready Slidev workspace for building reusable presentation decks.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "list": "node scripts/deck.mjs list",
+    "dev": "node scripts/deck.mjs dev",
+    "build": "node scripts/deck.mjs build",
+    "build:all": "node scripts/deck.mjs build-all",
+    "export:pdf": "node scripts/deck.mjs export-pdf",
+    "export:pptx": "node scripts/deck.mjs export-pptx",
+    "check:agent": "node scripts/validate-agent-assets.mjs",
+    "release:prepare": "node scripts/release.mjs prepare",
+    "release:check": "node scripts/release.mjs check",
+    "package": "node scripts/release.mjs package"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.2",
+    "@slidev/theme-default": "^0.25.0",
+    "@vueuse/motion": "^3.0.3",
+    "echarts": "^6.1.0",
+    "mermaid": "^11.15.0",
+    "qrcode": "^1.5.4",
+    "three": "^0.184.0",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.52.0"
+  }
+}

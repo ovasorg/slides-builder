@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slide Continuous Learning"
+  short_description: "Turn slide defects into durable repo rules"
+  default_prompt: "Use $slide-continuous-learning after fixing a slide defect to update the reusable process rules."

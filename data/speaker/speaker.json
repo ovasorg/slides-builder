@@ -1,0 +1,32 @@
+{
+  "name": "Example Speaker",
+  "shortName": "Example Speaker",
+  "initials": "ES",
+  "headline": "Engineering Leader",
+  "organization": "Example Organization",
+  "location": "Remote",
+  "email": "",
+  "website": "",
+  "photoImage": "",
+  "linkedin": {
+    "label": "Profile",
+    "handle": "example.com",
+    "url": "https://example.com",
+    "qrAsset": "linkedin-qr.svg"
+  },
+  "profiles": [
+    { "label": "GitHub", "value": "@example", "url": "https://github.com/example" },
+    { "label": "Website", "value": "example.com", "url": "https://example.com" }
+  ],
+  "roles": [
+    "Platform engineering practitioner",
+    "Developer experience advocate",
+    "Presentation-as-code maintainer"
+  ],
+  "tags": [
+    "Platform engineering",
+    "Developer experience",
+    "Reusable slide systems",
+    "AI-assisted content"
+  ]
+}

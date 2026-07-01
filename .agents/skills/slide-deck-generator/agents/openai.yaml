@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slide Deck Generator"
+  short_description: "Build Slidev decks from structured prompts"
+  default_prompt: "Use $slide-deck-generator to create or substantially revise a Slidev deck from this presentation brief."
